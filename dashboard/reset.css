@@ -1,0 +1,39 @@
+body{line-height:1;background:#fff;font:400 13px Arial,Helvetica,sans-serif}
+ol,ul{list-style:none}
+:focus{outline:0}
+a{text-decoration:none;color:#2d82c3}
+img{border:none}
+.fr{float:right!important}
+.fl{float:left}
+.dis-none{display:none}
+@font-face{font-family:cuprum-regular;src:url(../site/front-font/Cuprum-Regular.ttf)}
+.text-none{overflow:hidden;text-indent:-999px}
+.width-98{width:100%;float:left;padding:0}
+.width-300px{width:300px!important}
+.width-60per{width:60%!important}
+.width-40per{width:40%!important}
+.main{width:960px;margin:0 auto}
+.full{width:100%;float:left}
+.uper-case{text-transform:uppercase}
+.heading-25px{font:400 25px/100% cuprum-regular;color:#111}
+.heading-18px{font:400 18px/100% cuprum-regular;color:#111;text-shadow:0 -2px 0 #fff}
+.heading-15px{font:400 15px/100% cuprum-regular;color:#111;text-shadow:0 -2px 0 #fff}
+.heading-17px{font:400 17px/100% cuprum-regular;color:#111;text-shadow:0 -2px 0 #fff}
+.heading-20px{font:400 20px/100% cuprum-regular;color:#111;text-shadow:0 -2px 0 #fff}
+.margin-top-5{margin-top:5px!important}
+.margin-top-15{margin-top:15px!important}
+.margin-top-25{margin-top:25px!important}
+.margin-right-25px{margin-right:25px!important}
+.margin-top-15px{margin-top:15px!important}
+.padding-right-15px{padding-right:15px!important}
+.margin-top-10px{margin-top:10px!important}
+.margin-top-10pxMinus{margin-top:-10px!important}
+.fonSize11{font-size:11px!important}
+.error{color:red;font-size:11px;padding:2px 0 0}
+.texAlingCenter{text-align:center}
+.boxErrorPage{width:100%;margin:140px auto}
+.errorMsg{background:url(../dashboard/icons/kailey-kitty.png) no-repeat left center;padding:10px 0 10px 50px;font-size:24px}
+.height35px{height:35px!important}
+.modalPortfolio p{color:#676767;margin-top:10px!important;float:left;width:100%}
+.service-tab.detail-tab>li{width:175px;float:left;height:34px;border-right:1px solid #a6adb0}
+.sepraterUl{background:url(../dashboard/imageSeprater.png) left top no-repeat!important;padding-top:2px}

@@ -1,0 +1,25 @@
+#wrapper>section>div>aside nav{padding:5px 0;margin-right:-20px}
+#wrapper>section>div>aside nav>ul{display:block}
+#wrapper>section>div>aside nav>ul>li{float:left;width:100%}
+#wrapper>section>div>aside nav>ul>li a{color:#333;display:block;font-size:11px;padding:5px 4px 5px 8px;text-decoration:none;text-shadow:0 1px 1px #fff;text-shadow:0 1px 0 rgba(255,255,255,.3);-moz-border-radius:4px 0 0 4px;-webkit-border-top-left-radius:4px;-webkit-border-bottom-left-radius:4px;-khtml-border-radius:4px 0 0 4px;border-radius:4px 0 0 4px;line-height:16px}
+#wrapper>section>div>aside nav>ul>li.active>a{background:#fff;background:rgba(255,255,255,.3);color:#111;font-weight:700}
+#wrapper>section>div>aside nav.subnav{background:transparent url(../common/positions/line.png) repeat-x top left}
+#wrapper>section>div>aside nav>ul>li a.nav-icon{background-position:5px 50%;background-repeat:no-repeat;padding-left:25px}
+.icon-house{background-image:url(../../dashboard/icons/house.png)!important}
+.icon-connect{background-image:url(../../dashboard/icons/connect.png)!important}
+.icon-analytic{background-image:url(../common/icons/analytics.png)!important}
+.icon-blog{background-image:url(../../dashboard/blogs/blog.png)!important}
+.icon-help{background-image:url(../../dashboard/icons/help.png)!important}
+#wrapper>section>div>aside nav>ul>li ul{padding:3px 0 0 9px}
+#wrapper>section>div>aside nav>ul>li ul li{width:100%;float:left;padding:0 0 4px}
+#wrapper>section>div>aside nav>ul>li ul li a{padding:0;margin:0;width:100%;float:left;line-height:12px}
+#wrapper>section>div>aside nav>ul>li ul li a span{width:14px;padding:4px 10px 4px 4px;float:left}
+#wrapper>section>div>aside nav>ul>li ul li a img{width:14px;height:14px;padding:0;float:left}
+#wrapper>section>div>aside nav>ul>li ul li.Connected span{background:url(../common/connected_app.png) top left no-repeat}
+#wrapper>section>div>aside nav>ul>li ul li.FanPages span{background:url(../common/connect_fan_page.png) top left no-repeat}
+#wrapper>section>div>aside nav>ul>li.GoogleAnalytics ul li.Connected span{background:url(../common/connected_analytics.png) top left no-repeat}
+#wrapper>section>div>aside nav>ul>li>ul>li>a>p{margin:0;width:91px;line-height:100%;vertical-align:middle;padding:5px 0 0;color:#414141}
+#wrapper>section>div>aside nav.global>ul>li>a span{background:url(../common/arrows/arrow-left.png) top left no-repeat;-moz-border-radius:3px;-webkit-border-radius:3px;-khtml-border-radius:3px;border-radius:3px;float:right;font-size:9px;font-weight:400;padding:0;width:10px;height:10px;margin:4px 9px 0 0}
+#wrapper>section>div>aside nav.global>ul>li.Collapse>a span{background:url(../common/arrows/arrow-down.png) top left no-repeat}
+#wrapper>section>div>aside nav.global>ul>li.test>a span{background:url(../common/arrows/arrow-left.png) top left no-repeat}
+#wrapper>section>div>aside nav>ul>li ul li.FanPages p>span{width:69%;float:right;padding:0;margin:0;background:0 0}

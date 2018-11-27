@@ -1,0 +1,195 @@
+
+ * Timepicker Component for Twitter Bootstrap
+ *
+ * Copyright 2013 Joris de Wit
+ *
+ * Contributors https://github.com/jdewit/bootstrap-timepicker/graphs/contributors
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+.bootstrap-timepicker {
+  position: relative;
+}
+.bootstrap-timepicker.pull-right .bootstrap-timepicker-widget.dropdown-menu {
+  left: auto;
+  right: 0;
+}
+.bootstrap-timepicker.pull-right .bootstrap-timepicker-widget.dropdown-menu:before {
+  left: auto;
+  right: 12px;
+}
+.bootstrap-timepicker.pull-right .bootstrap-timepicker-widget.dropdown-menu:after {
+  left: auto;
+  right: 13px;
+}
+.bootstrap-timepicker .input-group-addon {
+  cursor: pointer;
+}
+.bootstrap-timepicker .input-group-addon i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+.bootstrap-timepicker-widget.dropdown-menu {
+  padding: 4px;
+}
+.bootstrap-timepicker-widget.dropdown-menu.open {
+  display: inline-block;
+  z-index: 100000!important;
+}
+.bootstrap-timepicker-widget.dropdown-menu:before {
+  border-bottom: 7px solid rgba(0, 0, 0, 0.2);
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  content: "";
+  display: inline-block;
+  position: absolute;
+}
+.bootstrap-timepicker-widget.dropdown-menu:after {
+  border-bottom: 6px solid #FFFFFF;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  content: "";
+  display: inline-block;
+  position: absolute;
+}
+.bootstrap-timepicker-widget.timepicker-orient-left:before {
+  left: 6px;
+}
+.bootstrap-timepicker-widget.timepicker-orient-left:after {
+  left: 7px;
+}
+.bootstrap-timepicker-widget.timepicker-orient-right:before {
+  right: 6px;
+}
+.bootstrap-timepicker-widget.timepicker-orient-right:after {
+  right: 7px;
+}
+.bootstrap-timepicker-widget.timepicker-orient-top:before {
+  top: -7px;
+}
+.bootstrap-timepicker-widget.timepicker-orient-top:after {
+  top: -6px;
+}
+.bootstrap-timepicker-widget.timepicker-orient-bottom:before {
+  bottom: -7px;
+  border-bottom: 0;
+  border-top: 7px solid #999;
+}
+.bootstrap-timepicker-widget.timepicker-orient-bottom:after {
+  bottom: -6px;
+  border-bottom: 0;
+  border-top: 6px solid #ffffff;
+}
+.bootstrap-timepicker-widget a.btn,
+.bootstrap-timepicker-widget input {
+  border-radius: 4px;
+}
+.bootstrap-timepicker-widget table {
+  width: 100%;
+  margin: 0;
+}
+.bootstrap-timepicker-widget table td {
+  text-align: center;
+  height: 30px;
+  margin: 0;
+  padding: 2px;
+}
+.bootstrap-timepicker-widget table td:not(.separator) {
+  min-width: 30px;
+}
+.bootstrap-timepicker-widget table td span {
+  width: 100%;
+}
+.bootstrap-timepicker-widget table td a {
+  border: 1px transparent solid;
+  width: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 8px 0;
+  outline: 0;
+  color: #333;
+}
+.bootstrap-timepicker-widget table td a:hover {
+  text-decoration: none;
+  background-color: #eee;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border-color: #ddd;
+}
+.bootstrap-timepicker-widget table td a i {
+  margin-top: 2px;
+  font-size: 18px;
+}
+.bootstrap-timepicker-widget table td input {
+  width: 25px;
+  margin: 0;
+  text-align: center;
+}
+.bootstrap-timepicker-widget .modal-content {
+  padding: 4px;
+}
+@media (min-width: 767px) {
+  .bootstrap-timepicker-widget.modal {
+    width: 200px;
+    margin-left: -100px;
+  }
+}
+@media (max-width: 767px) {
+  .bootstrap-timepicker {
+    width: 100%;
+  }
+  .bootstrap-timepicker .dropdown-menu {
+    width: 100%;
+  }
+}
+
+       
+        hr {
+            border-color: #ddd;
+        }
+        hr.soften {
+            background-image: -moz-linear-gradient(left center , transparent, rgba(0, 0, 0, 0.1), transparent);
+            border: 0 none;
+            height: 1px;
+            margin: 15px 0;
+        }
+        .input-group {
+            vertical-align: middle;
+            margin-bottom: 10px;
+        }
+        .jumbotron {
+            color: #ffffff;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+            background-color: #363636;
+            *background-color: #222222;
+            background-image: -moz-linear-gradient(top, #444444, #222222);
+            background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#444444), to(#222222));
+            background-image: -webkit-linear-gradient(top, #444444, #222222);
+            background-image: -o-linear-gradient(top, #444444, #222222);
+            background-image: linear-gradient(to bottom, #444444, #222222);
+            background-repeat: repeat-x;
+            border-color: #222222 #222222 #000000;
+            border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff444444', endColorstr='#ff222222', GradientType=0);
+            filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+        }
+
+        @media (max-width: 480px) {
+            .jumbotron h1 {
+                font-size: 50px;
+            }
+            table.options-table td:nth-child(3), table th:nth-child(3) {
+                display: none;
+            }
+        }
+        .center {
+            text-align: center;
+        }
+        .span4.center {
+            padding-bottom: 20px;
+        }
+
+ 

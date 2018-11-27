@@ -1,0 +1,12 @@
+@media (max-width:991px){.star_month figure{padding:15px 0}
+.star_month figure img{height:100%!important;width:auto!important}
+.content.star_month{padding:0 30px}
+.star_month p.name,.star_month p.name+small{text-align:left}
+.navbar .nav>li>a{min-width:100px}}
+@media (min-width:550px) and (max-width:700px){.client-popUp .modal-dialog,.myapp-modal-window .modal-dialog,.xx-dialog .modal-dialog{width:90%}}
+@media (min-width:350px) and (max-width:550px){.client-popUp .modal-dialog,.myapp-modal-window .modal-dialog,.xx-dialog .modal-dialog{width:350px!important}}
+@media (max-width:550px){.client-popUp .modal_editclient .logolink{width:156px;margin-left:0;float:left;left:0;margin-bottom:15px}
+.projectCntn .wd50P{width:100%}
+.projectCntn .logolink{margin-left:0;float:left;left:0;margin-bottom:15px}}
+@media (max-width:350px){.client-popUp .modal-dialog,.myapp-modal-window .modal-dialog,.xx-dialog .modal-dialog{width:250px}
+.client-popUp .modal-dialog .modal-footer .btn,.myapp-modal-window .modal-dialog .modal-footer .btn{margin-bottom:15px}}

@@ -1,0 +1,5 @@
+button.button,input.button{margin-right:4px;padding:4px 1px}
+.form input:after,.form select:after,.form textarea:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}
+.button span{float:none;display:inline}
+a.button.no-text{line-height:0;height:24px}
+.main-content>header{height:16px}

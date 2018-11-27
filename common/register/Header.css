@@ -1,0 +1,125 @@
+#wrapper>header{background:#1b344d;background:-moz-linear-gradient(top,#334f6b,#1b344d);background:-webkit-gradient(linear,left top,left bottom,from(#334f6b),to(#1b344d));-pie-background:linear-gradient(top,#334f6b,#191919);-moz-box-shadow:rgba(0,0,0,.3)0 1px 2px;-webkit-box-shadow:rgba(0,0,0,.3)0 1px 2px;-khtml-box-shadow:rgba(0,0,0,.3)0 1px 2px;-pie-box-shadow:#bbb -2px 1px 2px;box-shadow:rgba(0,0,0,.3)0 1px 2px;margin-bottom:20px;position:fixed;top:0;width:100%;z-index:99;zoom:1}
+#wrapper>header h1{color:#fff;font-family:"Lucida Grande","Lucida Sans Unicode","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif;font-size:16px;line-height:40px;margin-top:0;margin-bottom:0;text-align:center;text-shadow:0 1px 1px #000}
+#wrapper>header h1 a{color:#fff;text-decoration:none}
+#wrapper>header nav{background:transparent url(../common/positions/line_vert.png) repeat-y top left}
+#wrapper>header nav.grid_5{width:620px}
+#wrapper>header nav ul{padding:0}
+#wrapper>header nav>ul{padding-left:10px}
+#wrapper>header nav>ul>li{display:block;float:left;position:relative}
+#wrapper>header nav>ul>li a{color:#eee;display:block;font-size:13px;line-height:40px;padding:0 10px;text-decoration:none;text-shadow:0 1px 1px rgba(0,0,0,.5)}
+#wrapper>header nav>ul li:hover>a{color:#fff}
+#wrapper>header nav>ul>li:hover:not (.action) >a{background:#203e5b;background:-moz-linear-gradient(top,#5178a0,#203e5b);background:-webkit-gradient(linear,left top,left bottom,from(#5178a0),to(#203e5b));-pie-background:linear-gradient(top,#5178a0,#203e5b)}
+#wrapper>header nav>ul>li:hover:not (.action) >ul>li>a{-pie-background:#203e5b}
+#wrapper>header nav>ul>li.active>a{background:#203e5b!important;color:#fff;font-weight:700}
+#wrapper>header nav>ul>li.action{border:1px solid #444;border:1px solid rgba(255,255,255,.07);border-bottom:1px solid rgba(255,255,255,.15);margin-top:6px;-moz-border-radius:4px;-webkit-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;margin-right:4px}
+#wrapper>header nav>ul>li.action>a.button{color:#fff;font-size:10px;font-weight:700;line-height:16px;padding:4px 10px;border:1px solid #111}
+#wrapper>header nav>ul>li>a span.arrow-down{background:transparent url(../common/arrows/arrows.png) no-repeat 0 -103px;display:inline-block;height:6px;margin-left:8px;width:10px}
+#wrapper>header nav>ul>li:hover>a span.arrow-down{background:transparent url(../common/arrows/arrows.png) no-repeat -10px -103px}
+#wrapper>header nav>ul ul{background:#203e5b;-moz-border-radius:0 0 5px 5px;-webkit-border-bottom-left-radius:5px;-webkit-border-bottom-right-radius:5px;-khtml-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px;display:none;padding-bottom:5px;position:absolute;width:150px;z-index:999;-moz-box-shadow:0 2px 2px #777;-webkit-box-shadow:0 2px 2px #777;-khtml-box-shadow:0 2px 2px #777;box-shadow:0 2px 2px #777}
+#wrapper>header nav>ul ul li a{padding:0 10px;line-height:30px}
+#wrapper>header nav>ul ul li a:hover{background:#1b344d;-pie-background:#1b344d}
+#wrapper>header form.omega input[type=text]{background:#e3e3e3;border:1px solid #1c364f;margin-top:7px;-moz-box-shadow:0 1px 0 #ddd;-moz-box-shadow:0 1px 0 rgba(255,255,255,.3);-webkit-box-shadow:0 1px 0 #ddd;-webkit-box-shadow:0 1px 0 rgba(255,255,255,.3);-khtml-box-shadow:0 1px 0 #ddd;-khtml-box-shadow:0 1px 0 rgba(255,255,255,.3);box-shadow:0 1px 0 rgba(255,255,255,.3);color:#676767}
+#wrapper>header form input[type=text]:hover{background:#f3f3f3}
+#wrapper>header form input[type=text]:focus{background:#fff}
+.MessageOverlay{width:100%;float:left;position:fixed;top:0;left:0;height:100%;z-index:999;background:url(../common/positions/OverlayBg.png) top left repeat;display:none}
+.OverlayMain{width:510px;margin:0 auto;padding:60px 0 0}
+.OverlayCentent{width:490px;float:left;padding:0;background:#fff;border:10px solid #171a1b;-moz-border-radius:6px;-webkit-border-radius:6px;-khtml-border-radius:6px;border-radius:6px}
+.OverlayCentent h1{width:100%;float:left;font-family:Georgia,'Times New Roman','Bitstream Charter',Times,serif;font-weight:400;font-size:16px;color:#000;padding:0;margin:0}
+.OverlayCentent h1 span{float:left;padding:9px 0 8px 9px}
+.OverlayCentent h1 span.SchedulePost,.OverlayCentent h1 span.SchedulePostList{width:auto;float:right;padding:0;cursor:pointer;color:#06f;margin:10px 4px 0 10px}
+.OverlayCentent div.message{padding-top:5px;padding-bottom:5px}
+.OverlayCentent h1 a.CloseButton{background:url(../common/icons/close-icon.png) top left no-repeat;width:30px;height:30px;float:right;text-indent:-999999px;margin:-18px -18px 0 0}
+.OverlayCentent h1 input{background:url(../common/icons/close-icon.png) top left no-repeat;width:30px;height:30px;float:right;text-indent:-999999px;margin:-18px -18px 0 0;border:none;cursor:pointer}
+.OverlayCentent div#aresult{width:100%;float:left;padding:0 0 2px}
+.OverlayCentent form{float:left;padding:0 0 11px 9px}
+.OverlayCentent form textarea{width:464px;float:left;padding:3px;max-height:400px}
+.PostMessageOverlay{width:640px}
+.PostMessageOverlay div.OverlayCentent{width:620px}
+.OverlayCentent form{width:97%}
+.PostMessageOverlay form textarea{width:98%;padding:3px 1%}
+.OverlayCentent div.SchedulingFields{padding-bottom:11px;display:none}
+.OverlayCentent div.SchedulingFields input{width:45%}
+.OverlayCentent form ul{width:auto;float:left;padding:5px 0 0;list-style:none}
+.OverlayCentent form ul li{width:auto;float:left;margin:0 10px 0 0}
+.OverlayCentent form ul li input{float:left;margin:1px 5px 0 0}
+.PostMessageForm input.button-green{margin-right:8px}
+.OverlayCentent form ul li img{float:left;margin:0;width:16px}
+.OverlayCentent form ul li div{width:16px;height:16px;float:left;margin:0;padding:0}
+.OverlayCentent form ul li div span{width:auto;position:relative;white-space:nowrap;background:url(../common/arrows/BlackDownArrow.png) 13px 0 no-repeat;padding:0 0 4px;font-size:11px;margin:-24px 0 2px -10px;float:left;z-index:99;display:none}
+.OverlayCentent form ul li div span span{width:auto;float:left;padding:4px 10px;background:#222;color:#fff;-webkit-border-radius:4px;-moz-border-radius:4px;-khtml-border-radius:4px;border-radius:4px}
+.OverlayCentent form ul li div:hover span{display:block}
+.message span{margin:-2px 0 0 5px}
+.UploadDetailSpiner{width:100%;height:350px;background:url(../dashboard/spinner/ajax-loader.gif) 50% 50% no-repeat;padding:0;float:left;margin:0}
+#aresult-post,#uploadpicture{display:none}
+#more_feeds_All_tab{width:100%;float:left}
+.OverlayCentent form.VideoUploadForm{width:100%;float:left;padding:0}
+.UploadVideoMain{width:96%;float:left;margin:0 2%;padding:10px 0 15px}
+.UploadVideoMain div.message{display:none}
+.UploadVideoMain input.UploadVideoText{width:97%;float:left;margin:15px 0 0;color:#a5a5a5}
+.UploadVideoMain textarea{width:97%;float:left;margin:15px 0 0;min-height:50px;max-height:150px;color:#a5a5a5}
+.UploadVideoMain select{width:100%;float:left;margin:15px 0 0;-moz-box-shadow:inset 0 1px 3px rgba(0,0,0,.1);-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,.1);box-shadow:inset 0 1px 3px rgba(0,0,0,.1);font:13px/16px Arial,sans-serif!important;color:#a5a5a5}
+.UploadVideoMain input.UploadingYourVideo,.UploadVideoMain input.button{margin:15px 0 0 15px}
+.UploadVideoMain input.UploadingYourVideo{display:none;width:auto;cursor:default;background:#f1f1f1;background:-webkit-gradient(linear,left top,left bottom,from(#e9e9e9),to(#d1d1d1));background:-moz-linear-gradient(top,#e9e9e9,#d1d1d1);-pie-background:linear-gradient(top,#e9e9e9,#d1d1d1);border:1px solid #bbb;color:#555;text-shadow:0 1px 0 #fff}
+form.VideoUploadForm p{width:99.5%;float:left;padding:2px 0 0 .5%;margin:0;font-size:11px;color:#676767}
+form.VideoUploadForm p span{color:#a5a5a5}
+form.VideoUploadForm div.SingleFileUplader{display:none}
+.ScheduledPostList{height:463px}
+.ScheduledPostList header div.scroll-pane{width:100%;float:left;margin:0;padding:0}
+.ScheduledPostList ul.ScheduledListMain{background:url(../dashboard/spinner/ajax-loader.gif) center 16px no-repeat}
+.ScheduledPostList ul.ScheduledListMain li{background:#fff;height:auto}
+div.SchdeulePostDelete{width:96%;float:left;padding:7px 2%;border-top:1px solid #d1d1d1;background:#fff;height:auto}
+.ScheduledPostList ul.ScheduledListMain li p{height:auto}
+.ScheduledPostList ul.ScheduledListMain form{width:100%;float:left;padding:0;margin:0}
+.ScheduledPostList ul.ScheduledListMain li p span{width:auto;max-width:92%;float:left;height:auto}
+.ScheduledPostList ul.ScheduledListMain div.message{width:92%;float:left;margin:10px 0 0 1.5%}
+.ScheduledPostList ul.ScheduledListMain div.message.messageUpdate{margin-bottom:10px;display:none}
+.ScheduledPostList ul.ScheduledListMain div.message.messageUpdate img{float:left}
+.ScheduledPostList ul.ScheduledListMain div.message.messageUpdate span{width:auto;padding:2px 0 0 5px}
+.popupballoon{background:#fff;border:1px solid #777;display:block;height:auto;position:absolute;width:381px;z-index:1000;-moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;-moz-box-shadow:inset 1px 1px 0 rgba(255,255,255,.3);-webkit-box-shadow:inset 1px 1px 0 rgba(255,255,255,.3);box-shadow:inset 1px 1px 0 rgba(255,255,255,.3);zoom:1;margin:5px 0 0 120px;padding:12px 0}
+.popupballoon:after{border-color:#fff transparent}
+.popupballoon.top:before{top:-11px;left:29px;border-width:0 11px 11px;border-color:#777 transparent}
+.popupballoon.top:after{top:-10px;left:30px;border-width:0 10px 10px;border-color:#fff transparent}
+.popupballoon div.PostMenu{width:127px;float:left;display:block;text-align:center;background:url(../common/positions/PostMenuBg.png) top right no-repeat}
+#CreateGroupCloseGray,#SchedulePosting,#SchedulePostingGray,#SharePostGray,#UploadPhotoCloseGray,#UploadPhotoGray,#UploadeVideoCancelDisable,#savePostGray,.PhotoUploadForm div.message{display:none}
+#SchedulePostingGray,#SharePostGray,#savePostGray{margin-right:9px}
+.PostOverlay{width:100%;float:left;position:fixed;height:100%;background:url(../common/positions/OverlayBg.png) top left repeat;left:0;top:40px;display:none}
+.PostMain{width:980px;margin:0 auto}
+.PostMain div.popupballoon{background:#fff;border:1px solid #777;display:block;height:auto;position:absolute;width:508px;z-index:1000;-moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;-moz-box-shadow:inset 1px 1px 0 rgba(255,255,255,.3);-webkit-box-shadow:inset 1px 1px 0 rgba(255,255,255,.3);box-shadow:inset 1px 1px 0 rgba(255,255,255,.3);zoom:1;margin:5px 0 0 120px;padding:12px 0}
+.PostMain div.popupballoon:after{border-color:#fff transparent}
+.PostMain div.popupballoon.top:before{top:-11px;left:29px;border-width:0 11px 11px;border-color:#777 transparent}
+.PostMain div.popupballoon.top:after{top:-10px;left:30px;border-width:0 10px 10px;border-color:#fff transparent}
+.PostMain div.popupballoon div.PostMenu{width:127px;float:left;display:block;text-align:center;background:url(../common/positions/PostMenuBg.png) top right no-repeat}
+#wrapper>header nav>ul>li div.PostMenu a{color:#264677;width:auto;display:block;font-size:13px;line-height:40px;padding:0 10px;text-decoration:none;text-shadow:0 1px 1px rgba(145,162,192,.6)}
+#UploadPhotoGray,.PhotoUploadForm div.message{display:none}
+a.uploadeClose{position:absolute;z-index:9999;float:left;margin:60px 0 0;top:0;left:0}
+.ScheduledPostList{width:96%;float:left;margin-left:2%;padding:0;border:1px solid #d1d1d1;margin-bottom:15px;display:none}
+.ScheduledPostList.button{padding:0;cursor:default}
+.ScheduledPostList header{padding:7px 4px;text-align:left}
+.ScheduledPostList header ul{list-style:none;float:right;width:auto}
+.ScheduledPostList header ul li{width:auto;float:left;padding-left:5px}
+.ScheduledPostList ul.ScheduledListMain{width:100%;float:left;text-align:left;padding:0}
+.ScheduledPostList ul.ScheduledListMain li{width:96%;float:left;padding:4px 2%;border-top:1px solid #d1d1d1}
+.ScheduledPostList ul.ScheduledListMain li:hover{background-color:#fafafa}
+.ScheduledPostList ul.ScheduledListMain li p{width:100%;float:left;line-height:normal;padding:0;margin:0}
+.ScheduledPostList ul.ScheduledListMain li p span.Scheduled{width:auto;float:left;font-size:11px;padding:2px 5px 0 0;color:#9B9B9B}
+.PostOverlayMain{width:640px;margin:0 auto;padding:60px 0 0}
+.PostOverlayContent{width:620px;float:left;padding:0;background:#fff;border:10px solid #171a1b;-moz-border-radius:6px;-webkit-border-radius:6px;-khtml-border-radius:6px;border-radius:6px}
+.PostOverlayContent h1{width:100%;float:left;font-family:Georgia,'Times New Roman','Bitstream Charter',Times,serif;font-weight:400;font-size:17px;color:#000;padding:0;margin:0}
+.PostOverlayContent h1 span{float:left;padding:9px 0 8px 9px}
+.PostOverlayContent div.message{padding-top:5px;padding-bottom:5px}
+.PostOverlayContent h1 input{background:url(../common/icons/close-icon.png) top left no-repeat;width:30px;height:30px;float:right;text-indent:-999999px;margin:-18px -18px 0 0;border:none;cursor:pointer}
+div.NewBlogPostMain{width:98%;float:left;padding:6px 1% 0}
+div.NewBlogPostMain div.message{margin-top:0;padding-top:4px;padding-bottom:4px;height:17px;display:block}
+div.NewBlogPostMain div.message img{float:left}
+div.NewBlogPostMain div.message span{padding:0 0 0 10px;margin:0;float:left}
+div.NewBlogPostMain div.TextField{width:100%;float:left;padding:0 0 15px}
+div.NewBlogPostMain div.TextField input{width:98%;float:left;padding:4px 1%}
+div.NewBlogPostMain div.TextField select{width:100%;float:left;color:#a5a5a5}
+div.NewBlogPostMain div.SubmitButton{width:100%;float:left;padding:0 0 15px}
+div.NewBlogPostMain div.SubmitButton input.button{margin-left:15px}
+div.NewBlogPostMain div.TextEditor{width:100%;float:left;padding:0 0 15px}
+#cke_bottom_myeditor div.cke_resizer_ltr,#cke_dialog_footer_43{display:none}
+#cke_myeditor{border:none;padding:0}
+.TextField label.error{position:absolute;left:-100%;top:-100%;z-index:999}
+div.PostTemplate{width:100%;float:left;padding:0 0 12px}
+div.PostTemplate div.TextField select{width:100%;float:left;margin:5px 0 0;color:#a5a5a5}

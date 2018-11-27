@@ -1,0 +1,157 @@
+*{padding:0;maring:0}
+p{display:block}
+body{line-height:1;background:#fff;font:400 13px Arial,Helvetica,sans-serif}
+.loginbg{background:#eee!important}
+#loginMainBox{width:440px;height:auto;margin:70px auto;font-family:Lato,sans-serif}
+#loginMainBox .row{width:100%;float:left;padding:16px 0;font-size:14px;color:#666}
+#loginMainBox .row input{margin-right:10px}
+#loginMainBox .login-btn{background:#007aff;border:1px solid #007aff;width:100%;height:45px;font-size:18px;color:#fff;cursor:pointer;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;font-family:Lato,sans-serif;font-weight:300}
+#loginMainBox .icon{border:1px solid #ccc;border-right:none;background:url(../dashboard/icons/icons_login.jpg) center top no-repeat;width:46px;height:46px;left:0;position:absolute;margin:1px 0 0 1px;border-radius:5px 0 0 5px;-webkit-border-radius:5px 0 0 5px;-moz-border-radius:5px 0 0 5px}
+#loginMainBox p{position:relative}
+#loginMainBox .icon.envelop{background:url(../dashboard/icons/icons_login.jpg) center top no-repeat}
+#loginMainBox .icon.lock{background:url(../dashboard/icons/icons_login.jpg) center bottom no-repeat}
+#loginMainBox .login-btn:hover{background:0 0;color:#007aff}
+#loginMainBox .login-input{margin-left:48px;margin-top:1px;border-radius:0 5px 5px 0;-webkit-border-radius:0 5px 5px 0;-moz-border-radius:0 5px 5px 0}
+#loginMainBoxSub{padding-bottom:15px;float:left;width:100%}
+.loginHeader{text-align:center;width:100%;float:left}
+.loginFormBox{width:94%;float:left;height:auto;padding-bottom:5px}
+#loginMainBox .inputM{width:84.3%;height:30px;border:1px solid #ccc;font-size:15px;color:#555;font-family:Lato,sans-serif}
+#loginMainBox .inputM:focus{outline:0;border:1px solid #007aff;box-shadow:rgba(0,122,255,.3)0 0 8px!important;-webkit-box-shadow:rgba(0,122,255,.3)0 0 8px!important;-moz-box-shadow:rgba(0,122,255,.3)0 0 8px!important}
+#loginMainBox .forgotbtn{background:0 0;border:none;float:right;cursor:pointer;color:#007aff;font-size:14px}
+#loginMainBox .forgotbtn:hover{color:#666}
+#loginMainBox .forgotbtn:focus{outline:0}
+.margin-15px{margin:15px}
+.percent100{width:100%}
+.percent95{width:95%;margin:0 auto}
+.bdr-radius-10{-webkit-border-radius:10px;-khtml-border-radius:10px;-moz-border-radius:10px;border-radius:10px}
+.bdr-radius-5{-webkit-border-radius:5px;-khtml-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
+.inputM{padding:8px;border:1px solid #CCC}
+.margintop15{margin-top:15px}
+.percent48{width:48%}
+.btnDownHolder{padding-bottom:20px}
+.taglist{display:block;float:left;width:93%}
+input.invalid{border-color:#a94442!important}
+input.invalid:focus{box-shadow:rgba(169,68,68,.3)0 0 8px!important;-webkit-box-shadow:rgba(169,68,68,.3)0 0 8px!important;-moz-box-shadow:rgba(169,68,68,.3)0 0 8px!important}
+.createLables{width:6%;padding-top:5px}
+.width90{width:90%}
+.width89{width:89%}
+.bdr-none{border:none}
+.form-error{-moz-box-shadow:#DDD 0 0 6px;-webkit-box-shadow:#DDD 0 0 6px;box-shadow:#DDD 0 0 6px;background-color:#000;-moz-border-radius:4px;-webkit-border-radius:4px;-khtml-border-radius:4px;border-radius:4px;color:#fff;display:none;font-size:11px;height:15px;padding:4px 10px;z-index:9999}
+.form-error p{color:#fff;display:block;margin:0;line-height:15px}
+.form-error em{display:block;width:0;height:0;border:5px solid;border-color:transparent #000 transparent transparent;position:absolute;top:6px;left:-10px}
+.acfb-holder{width:88.9%;list-style:none;padding:4px 4px 0}
+.acfb-holder>input{border:none;padding:3px;margin-bottom:4px}
+.acfb-data{width:auto;float:left;background:#b1c7d6;border:1px solid #043454;padding:2px 5px;-webkit-border-radius:4px;-moz-border-radius:4px;margin:0 4px 4px 0}
+.acfb-data>span{float:left;color:#043454}
+.acfb-data>img.p{float:left;margin-left:4px}
+div.ac_results{border:1px solid #ccc;background-color:#fff;overflow:hidden;z-index:99999;width:600px;padding:0;margin-top:4px}
+.ac_results ul{width:100%;list-style-position:outside;list-style:none;margin:0;padding:0}
+.ac_results li{cursor:default;display:block;font:13px/16px Arial,sans-serif!important;overflow:hidden;letter-spacing:1px;color:#a5a5a5;background-color:#fff margin:0;padding:3px 5px}
+.ac_results li.ac_odd{background-color:#f1f1f1!important}
+.ac_results li.ac_over{background-color:#91c8ff!important;color:#fff}
+.ac_moreItems{text-align:center;background-color:InactiveCaption;color:InactiveCaptionText;cursor:default;display:block;width:100%;font:bold menu 12px;overflow:hidden;-moz-user-select:none;-khtml-user-select:none;margin:0;padding:0 5px}
+.floatLft{float:left}
+#loginMainBoxSub .label2{width:100%;float:left;height:34px;font-size:16px;color:#555;line-height:26px}
+#loginMainBoxSub .reset{margin:17px 0 13px}
+#loginMainBoxSub .button3,#loginMainBoxSub .logo{width:95%}
+#loginMainBox .input2{width:96%}
+#loginMainBox .input3{margin-top:-4px;margin-bottom:-12px}
+#loginMainBox .input4{margin-top:-4px;height:38px;margin-bottom:5px;width:80.3%}
+#loginMainBoxSub .button2{width:94.2%}
+#loginMainBoxSub .button3{width:100%;margin-top:32px}
+#loginMainBoxSub .gap{margin-bottom:18px}
+#loginMainBox .error{color:red!important;font-size:15px!important;padding-top:14px}
+.margin-top97{margin:-142px 12px 0 0}
+#file-uploader{margin-top:15px!important}
+.message.info{color:#60c560;font-size:16px;margin-bottom:5px}
+.new-password p{position:relative}
+.new-password p .icon.lock{top:110px}
+.new-password p .icon.lock.second{top:-5px}
+.new-password .forgotbtn{margin-right:24px}
+.new-password .login-btn.button3{width:94.5%!important}
+.exclamation{background:url(../dashboard/icons/site_ico_exclamation.png) no-repeat left top;width:18px!important;height:18px!important;display:block;float:left;margin-right:5px}
+.signup{margin:-84px 25px 20px 0}
+.signup2{margin-top:-108px}
+.reset-btn{margin-top:50px}
+.jGrowl-notification{display:none!important}
+.login-btn:focus{outline:0}
+.userpassword{width:450px!important;margin-top:10px!important}
+.userpassword .input4{width:83.3%!important;height:46px!important}
+.userpassword .icon.lock{top:34px!important}
+.userpassword .icon.lock.second{top:-5px!important}
+.userpassword .button3{margin-top:0!important}
+.userform{width:47%;float:left;margin-left:4%!important;margin-top:0!important;padding:0!important}
+.userform:first-child{margin-left:0!important}
+.userform .input2{width:94%!important}
+#newImage{margin:0 30px 15px 0!important;float:left!important}
+#newImage img{margin-bottom:0!important}
+.userRegister{margin-left:-8px}
+.userRegister p{position:inherit!important}
+@media (max-width :335px){#loginMainBoxSub{width:220px;padding-left:9px}
+#loginMainBox .forgotbtn{margin-right:0}
+#loginMainBox .inputM{width:77.3%}
+.loginHeader img{max-width:80%!important}
+.signup,.signup2{margin-right:17px!important}
+.paddingleft18{padding-left:18px}
+.new-password p .icon.lock{top:94px}
+.userform{width:47%}
+.userform .input2{width:88%!important}
+#file-uploader{width:275px!important}
+.userRegister #loginMainBox .inputM{width:93.3%}
+#loginMainBox.homedashalign{width:auto!important}
+#loginMainBox.homedashalign .inputM{width:70.3%!important}
+#loginMainBox.homedashalign .forgotbtn{margin-top:0}}
+@media (min-width :320px) and (max-width:480px){.myAccount{width:100%}
+.myAccount .form-control{width:99%!important;margin-right:0}
+.myAccount #loginMainBox{width:100%}
+.myAccount .btn-primary{width:85%!important}
+.myAccount .input1{margin-left:-4%}
+.userpassword{width:240px!important}
+.userpassword .input4{width:74.3%!important}
+.userpassword#loginMainBox{width:286px!important}
+#loginMainBox.homedashalign{width:auto!important}
+#loginMainBox.homedashalign .inputM{width:78.3%}}
+.btn-success.active,.btn-success:hover{border:1px solid #007aff!important;color:#007aff}
+.qq-upload-button{border:1px transparent solid!important}
+.errorPasswordmsg{font-size:12px;color:#e62828;font-family:Lato,sans-serif;margin:4px 0;line-height:18px}
+.gaptop15{margin:-15px 0 17px 4px}
+.deletebtn-primary{padding:4px 32px!important;background-color:#f19e4d;color:#fff;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border:1px solid #f19e4d;cursor:pointer;font-family:latolight;font-weight:300;font-size:16px;margin-bottom:15px}
+.deletebtn-primary:hover{background:0 0;border:1px solid #007aff!important;color:#007aff}
+.resize{resize:none}
+.ht120{height:120px!important}
+.ht50{height:47px!important}
+.wd100P{width:100%!important}
+.floatR{float:right!important}
+.backword{z-index:-1!important}
+.height46{height:30px!important}
+.marginT15{margin-top:15px}
+.createaccount{width:100%;margin-top:-8px;margin-left:-8px}
+.createaccount .myAccount{width:50%;float:left}
+.createaccount #loginMainBox{margin:0 auto}
+.createaccount #loginMainBox .input2{margin-bottom:0;height:30px;margin-top:15px}
+.myaccountslider{width:50%;float:left;height:640px;background:#f6f6f6}
+.myaccountslider .flexslider4{width:100%}
+.myaccountslider .flexslider4 ul li{text-align:center}
+.alignlogo{margin:20px 12%}
+<!-- add 20th Nov-->.alignnav li a.current{margin-top:0;width:100%}
+.txtalignC{text-align:center!important;position:relative}
+.toppadM .top-pad{margin-top:-12.7%}
+.heading.padding0{padding:0}
+@media (max-width :991px){.toppadM .top-pad{margin-top:-20px}
+.marignT20{margin-top:85px!important}}
+.marginLeft10{margin-left:10px!important}
+@media (min-width :336px) and (max-width:550px){#loginMainBoxSub.forgPass{width:72%}
+#loginMainBoxSub.forgPass .inputM{width:79.3%}}
+@media (max-width :335px){#loginMainBoxSub.forgPass .inputM{width:69.3%}}
+@media (max-width :991px){.starmonth .starimage{position:relative;width:98%!important}
+.fixwidth{width:30%;float:left}
+.star_month .comment{float:left}
+.wd70P{width:70%!important}}
+@media (max-width :680px){.starmonth .starimage{position:relative;width:98%!important}
+.fixwidth{width:50%;float:left}
+.star_month .comment{float:left}
+.wd70P{width:50%!important}}
+.wd290{height:300px!important}
+.alignjustity{text-align:justify!important}
+.dropdown-menu.white_bg li{background:#fff}
+.marginR20{margin-right:20px!important}

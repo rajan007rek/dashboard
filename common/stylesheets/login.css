@@ -1,0 +1,15 @@
+p{display:block}
+body{line-height:1;background:#fff;font:400 13px Arial,Helvetica,sans-serif}
+.loginFormBox{width:94%;float:left;height:auto;padding-bottom:5px}
+.border-bottom{border-bottom:1px solid #909090}
+.margin0{margin-bottom:0}
+.margin-15px{margin:15px}
+#loginMainBox h3{color:#007aff}
+.ui-widget-header{border:none!important;background:none!important;background-color:transparent!important;background-image:none!important}
+.ui-dialog{z-index:9999!important}
+.inviteSent{color:#81ba10;font-size:16px}
+.invite{background:url(../../dashboard/icons/ico_right.png) left center no-repeat}
+.disable{background:url(../../dashboard/ico_disable.png) left center no-repeat;color:red}
+.alreadyinvited{background:url(../../dashboard/icons/ico_exclamation.png) left center no-repeat;color:red}
+#showResendMessageResponse.inviteSent{display:block}
+.credentials .inviteSent{color:#e62828}

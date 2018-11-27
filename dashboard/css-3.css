@@ -1,0 +1,48 @@
+.bdr-radius-5{-webkit-border-radius:5px;-khtml-border-radius:5px;-moz-border-radius:5px;border-radius:5px}
+.bdr-radius-10{-webkit-border-radius:10px;-khtml-border-radius:10px;-moz-border-radius:10px;border-radius:10px}
+.nivoSlider{position:relative;width:100%}
+.nivoSlider>site-images{position:absolute;top:0;left:0;max-height:191px!important}
+.nivo-main-image{display:block!important;position:relative!important;width:100%!important}
+.nivoSlider a.nivo-imageLink{position:absolute;top:0;left:0;width:100%;height:100%;border:0;padding:0;margin:0;z-index:6;display:none}
+.nivo-slice{display:block;position:absolute;z-index:5;max-height:80px!important;top:0}
+.nivo-box{display:block;position:absolute;z-index:5;overflow:hidden}
+.nivo-box site-images{display:block}
+.nivo-directionNav>a{position:absolute;bottom:-49px;z-index:9999;cursor:pointer;width:15px;height:17px;display:block!important;overflow:hidden;text-indent:-999px;background:#eee url(../dashboard/slider-bg.png) -22px 2px no-repeat}
+.nivo-prevNav{left:0}
+.nivo-prevNav:hover{background-position:-22px -14px}
+.nivo-nextNav{right:0;background-position:-36px 2px!important}
+.nivo-nextNav:hover{background-position:-36px -14px!important}
+.nivo-controlNav{text-align:center;padding:15px 0;position:relative;bottom:8px;background:url(../dashboard/bdr-bottom.jpg) 0 202px repeat-x}
+.nivo-controlNav a{cursor:pointer;width:22px;height:22px;display:inline-block;margin-left:10px;background:#eee url(../dashboard/slider-bg.png) top left no-repeat;overflow:hidden;text-indent:-999px}
+.nivo-controlNav a.active{background-position:0 -21px}
+.coda-slider-wrapper{display:block;padding:15px 0 0}
+.coda-slider{background:0 0}
+.coda-slider-no-js .coda-slider{height:300px;width:100%;overflow:auto!important;padding-right:0}
+.coda-slider,.coda-slider .panel{width:620px}
+.coda-slider-wrapper.arrows .coda-slider,.coda-slider-wrapper.arrows .coda-slider .panel{width:640px}
+.coda-slider-wrapper.arrows .coda-slider{margin:0 10px}
+.padding-Left-5{padding-left:5px}
+.coda-slider .panel-wrapper{padding:0;min-height:93px}
+.coda-slider p.loading{padding:20px;text-align:center}
+.coda-nav ul{width:100%;float:left;padding-bottom:10px}
+.coda-nav ul li{float:left;width:25%;text-align:center}
+.coda-nav ul li a{width:100%;float:left;color:#303030;height:28px;font:400 16px Arial,Helvetica,sans-serif;padding-bottom:5px;border-bottom:1px solid #909090}
+.coda-nav ul li a:hover{color:#2D82C3}
+.coda-nav ul li a.current{border-bottom:1px solid #2d82c3;color:#848484;background:url(../dashboard/arrows/arrow-up-blue.png) center bottom no-repeat}
+.coda-slider-wrapper{clear:both;overflow:auto}
+.panel-wrapper>p{width:640px;float:left;padding-bottom:8px;font:400 15px/20px Arial,Helvetica,sans-serif;color:#111}
+.coda-slider{float:left;overflow:hidden;position:relative}
+.coda-slider .panel{display:block;float:left}
+.coda-slider .panel-container{position:relative}
+.coda-nav-left,.coda-nav-right{float:left}
+.coda-nav-left a,.coda-nav-right a{display:block;text-align:center;text-decoration:none}
+.panel-wrapper .title{display:none}
+.margin-11px-bottom{margin-bottom:11px}
+.holderSetter{overflow:hidden!important;min-height:250px;text-align:justify}
+.whitey{color:#fff!important}
+.headerHolder{float:left;margin-bottom:32px;margin-top:8px}
+.holderSetter p h1{display:inline-block}
+.display-inl{display:inline}
+.holderSetter h1,.holderSetter h2,.holderSetter h3{display:inline;font-weight:400}
+.holderSetter h1 strong,.holderSetter h2 strong,.holderSetter h3 a{font-weight:400}
+.margin-top11{margin-top:11px}
